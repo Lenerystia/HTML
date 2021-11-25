@@ -1,0 +1,13 @@
+*{
+	font-family: Tahoma;
+}
+
+.logo, .menu{
+	background-color: #115C97;
+	color: DodgerBlue;
+	height: 100px;
+	width: 50%;
+	font-size: 150%;
+	text-align: center;
+	float: left;
+}
