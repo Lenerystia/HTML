@@ -1,5 +1,6 @@
 *{
 	font-family: Tahoma;
+	margin: 0;
 }
 .logo{
 	background-color: #28C7A8;
@@ -11,5 +12,33 @@
 .menu{
 	background-color: #78E3CE;
 	height: 100px;
+	width: 70%;
+}
+.menu a{
+	background-color: green;
+	color: orange;
+	padding: 10px 40px 10px 40px;
+	align: center;
+	line-height: 100px;
+}
+.menu a:hover{
+	background-color: orange;
+	color: green;
+}
+.glownyLewy{
+	background-color: #78E3CE;
+	height: 850px;
+	width: 30%;
+	float: left;
+}
+.glownyPrawy{
+	background-color: #28C7A8;
+	height: 850px;
+	width: 70%;
+}
+.stopka{
+	background-color: black;
+	color: white;
+	text-align: right;
 	width: 70%;
 }

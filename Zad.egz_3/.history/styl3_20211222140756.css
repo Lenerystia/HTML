@@ -1,0 +1,11 @@
+*{
+    font-family: Garamond;
+    margin: 0;
+}
+.baner{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

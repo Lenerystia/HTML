@@ -1,0 +1,14 @@
+*{
+    font-family: Garamond;
+}
+.baner{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.formularz{
+    background-color: darksalmon;
+    text-align: center;
+    padding: 40px;
+}

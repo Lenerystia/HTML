@@ -16,14 +16,14 @@
 	height: 100px;
 	width: 70%;
 }
-.menu > a{
+.menu a{
 	background-color: green;
 	color: orange;
 	padding: 10px 40px 10px 40px;
-	align: center;
+	text-align: center;
 	line-height: 100px;
 }
-.menu > a:hover{
+.menu a:hover{
 	background-color: orange;
 	color: green;
 }
@@ -36,10 +36,10 @@ img{
 	width: 30%;
 	float: left;
 }
-.glownyLewy > h2{
+.glownyLewy h2{
 	padding-top: 20px;
 }
-.glownyLewy > ul{
+.glownyLewy ul{
 	padding-bottom: 15px;
 	padding-top: 25px;
 }
@@ -48,7 +48,7 @@ img{
 	height: 850px;
 	width: 70%;
 }
-.glownyPrawy > .paragrafs{
+.glownyPrawy .paragrafs{
 	padding-top: 10px;
 	padding-bottom: 20px;
 	line-height: 2;

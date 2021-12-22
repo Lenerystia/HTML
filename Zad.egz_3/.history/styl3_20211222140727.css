@@ -1,0 +1,45 @@
+*{
+    font-family: Garamond;
+    margin: 0;
+}
+.baner{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.formularz{
+    background-color: darksalmon;
+    text-align: center;
+    padding: 40px;
+}
+.glownyLewy, .glownyPrawy{
+    background-color: lightsalmon;
+}
+.glownyLewy{
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+.glownySrodkowy{
+    background-color: lightsalmon;
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+.glownyPrawy{
+    float: left;
+    width: 30%;
+    height: 300px;
+}
+.stopka{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+.formularz ol{
+    border: 2px solid rgb(205, 92, 92);
+    font-size: 150%;
+}

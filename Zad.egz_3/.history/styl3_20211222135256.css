@@ -1,0 +1,35 @@
+*{
+    font-family: Garamond;
+}
+.baner{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.formularz{
+    background-color: darksalmon;
+    text-align: center;
+    padding: 40px;
+}
+.glownyLewy, .glownyPrawy{
+    background-color: darksalmon;
+}
+.glownyLewy{
+    float: left;
+}
+.glownySrodkowy{
+    background-color: lightsalmon;
+    height: 300px;
+    width: 40%;
+}
+.stopka{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+ol{
+    border: 2px solid rgb(205, 92, 92);
+    font-size: 150%;
+}
