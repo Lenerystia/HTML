@@ -1,0 +1,61 @@
+*{
+	font-family: Tahoma;
+	margin: 0;
+}
+
+.logo{
+	background-color: #28C7A8;
+	text-align: center;
+	height: 100px;
+	width: 30%;
+	line-height: 100px;
+	float: left;
+}
+.menu{
+	background-color: #78E3CE;
+	height: 100px;
+	width: 70%;
+}
+.menu > a{
+	background-color: green;
+	color: orange;
+	padding: 10px 40px 10px 40px;
+	align: center;
+	line-height: 100px;
+}
+.menu > a:hover{
+	background-color: orange;
+	color: green;
+}
+img{
+	width: 75%;
+}
+.glownyLewy{
+	background-color: #78E3CE;
+	height: 850px;
+	width: 30%;
+	float: left;
+}
+.glownyLewy > h2{
+	padding-top: 20px;
+}
+.glownyLewy > ul{
+	padding-bottom: 15px;
+	padding-top: 25px;
+}
+.glownyPrawy{
+	background-color: #28C7A8;
+	height: 850px;
+	width: 70%;
+}
+.glownyPrawy > .paragrafs{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	line-height: 2;
+}
+.stopka{
+	background-color: black;
+	color: white;
+	text-align: right;
+	width: 70%;
+}

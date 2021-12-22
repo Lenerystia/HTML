@@ -1,0 +1,15 @@
+*{
+	font-family: Tahoma;
+}
+.logo{
+	background-color: #28C7A8;
+	text-align: center;
+	height: 100px;
+	width: 30%;
+	float: left;
+}
+.menu{
+	background-color: #78E3CE;
+	height: 100px;
+	width: 70%;
+}
