@@ -15,10 +15,8 @@
 }
 .glownyLewy, .glownyPrawy{
     background-color: lightsalmon;
-}
-.glownyLewy{
-    float: left;
-    width: 400px;
+	width: 30%;
+	float: left;
     height: 300px;
 }
 .glownySrodkowy{
@@ -27,9 +25,8 @@
     width: 40%;
     float: left;
 }
-.glownyPrawy{
-    float: left;
-    height: 300px;
+ol{
+	padding: 0;
 }
 .stopka{
     background-color: rosybrown;
