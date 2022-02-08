@@ -1,0 +1,11 @@
+p{
+    font-size: 200%;
+    padding: 20px;
+    margin: 0 0;
+    text-align: center;
+}
+p.one{
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 0px #000000;
+}
