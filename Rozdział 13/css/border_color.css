@@ -1,0 +1,21 @@
+body{
+    font-family: 'Times New Roman', Verdana, sans-serif;
+    color: #111111
+}
+p{
+    width: 200px;
+    border-width: 5px;
+    padding: 5px;
+}
+p.one{
+    border-style: dashed;
+    border-color: #08d;
+}
+p.two{
+    border-style: dotted;
+    border-color: #bba #111 #ee3e80 #08d;
+}
+p.three{
+    border-style: double;
+    border-color: red green blue black;
+}

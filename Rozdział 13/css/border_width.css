@@ -1,0 +1,17 @@
+body{
+    color: #111;
+    font-family: Arial, Verdana, sans-serif;
+}
+p{
+    width: 200px;
+    border-style: solid;
+}
+p.one{
+    border-width: 2px;
+}
+p.two{
+    border-width: thick;
+}
+p.three{
+    border-width: 1px 3px 12px 6px;
+}

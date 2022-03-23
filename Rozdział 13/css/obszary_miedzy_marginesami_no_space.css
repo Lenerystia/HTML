@@ -1,0 +1,13 @@
+body{
+    color: #111;
+    font-family: Arial, Verdana, sans-serif;
+}
+div{
+    border: 2px solid #e7642c;
+    width: 200px;
+}
+h2, p {
+    width: 200px;
+    font-size: 80%;
+    line-height: 1.4em;
+}

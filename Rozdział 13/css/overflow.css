@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111;
+    font-size: 90%;
+    line-height: 1.2em;
+    width: 200px;
+}
+h2{
+    color: #08d;
+    border-bottom: 1px solid #08d;
+}
+p{
+    min-height: 30px;
+    max-height: 85px;
+}
+p.one{
+    overflow: scroll;
+}
+p.two{
+    overflow: hidden;
+}
