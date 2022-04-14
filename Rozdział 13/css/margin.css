@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111;
+}
+p{
+    width: 200px;
+    border: 2px dashed #08d;
+    padding: 10px;
+}
+p.example{
+    margin: 20px;
+}

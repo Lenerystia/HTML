@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    color: #111;
+}
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+li.coming-soon{
+    visibility: hidden;
+}

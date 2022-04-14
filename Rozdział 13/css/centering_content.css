@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+p{
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #08d;
+    text-align: left;
+}
+p.example{
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+p.example2{
+    margin: 10px 10px 10px auto;
+    text-align: right;
+}
