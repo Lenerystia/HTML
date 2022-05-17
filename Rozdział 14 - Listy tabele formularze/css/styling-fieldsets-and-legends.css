@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Verdana, sans-serif;
+    color: #654;
+}
+input {
+	border-bottom: 1px dotted #dcdcdc;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 5px;
+	width: 280px;
+	margin-bottom: 20px;
+}
+input:focus {
+	border: 1px dotted #dcdcdc;
+	outline: none;}
+input#submit {
+	color: #ffffff;
+	background-color: #654;
+	border: none;
+	border-radius: 5px;
+	width: 80px;
+}
+input#submit:hover {
+	color: #665544;
+	background-color: #efefef;
+}
+fieldset {
+	width: 350px;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: right;
+}
+legend {
+	background-color: #efefef;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;
+}

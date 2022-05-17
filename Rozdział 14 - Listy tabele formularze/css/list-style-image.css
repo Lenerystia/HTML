@@ -1,0 +1,18 @@
+ul{
+    list-style-image: url("images/icon-plus.png");
+}
+li{
+    margin: 10px 0px 0px 0px;
+}
+li.one{
+    list-style-image: url("images/email.png");
+}
+li.two{
+    list-style-image: url("images/icon-plus.png");
+}
+li.three{
+    list-style-image: url("images/star.png");
+}
+li.four{
+    list-style-image: url("images/twitter.png");
+}

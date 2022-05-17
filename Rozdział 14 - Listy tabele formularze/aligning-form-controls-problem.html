@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+		<title>Aligning Form Controls - Problem</title>
+		<style >
+			*{
+				font-family: Arial, Verdana, sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="example.php" method="post">
+			<div>
+				<label for="name" class="title">Imię:</label>
+				<input type="text" id="name" name="name" />
+			</div>
+			<div>
+				<label for="email" class="title">Email:</label>
+				<input type="email" id="email" name="email" />
+			</div>
+			<div class="radio-buttons">
+				<span class="title">Gender:</span>
+				<input type="radio" name="gender" id="male" value="M" />
+				<label for="male">M</label>
+				<input type="radio" name="gender" id="female" value="F" />
+				<label for="female">F</label><br />
+			</div>
+			<div class="submit">
+				<input type="submit" value="Rejestruj" id="submit" />
+			</div>
+		</form>
+	</body>
+</html>
