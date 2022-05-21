@@ -1,70 +1,75 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
         <meta http-equiv="content-type" content="text/html" charset="UTF-8">
-		<title>Lists, Tables and Forms</title>
-        <link rel="stylesheet" href="css/example.css">
+		<title>Example</title>
+        <link rel="stylesheet" type="text/css" href="css/example.css">
 	</head>
 	<body>
-		<h1>Poetry Workshops</h1>
-		<p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
-		<p>Please note that the following events are free to members:</p>
+		<h1>Warsztaty poetyckie</h1>
+		<p>W tym roku mamy zamiar zorganizować i przeprowadzić serię warsztatów oraz sympozjów poetyckich.</p>
+		<p>Dla naszych członków wstęp na te imprezy będzie bezpłatny</p>
 		<ul>
-			<li>A Poetic Perspective</li>
-			<li>Walt Whitman at War</li>
-			<li>Found Poems and Outsider Poetry</li>
+			<li>Perspektywa poetycka</li>
+			<li>Wojna w oczach Baczyńskiego</li>
+			<li>Poematy odnalezione i poeci-outsiderzy</li>
 		</ul>
 		<table>
 			<tr class="head">
 				<th></th>
-				<th>New York</th>
-				<th>Chicago</th>
-				<th>San Francisco</th>
+				<th>Kraków</th>
+				<th>Wrocław</th>
+				<th>Gdańsk</th>
 			</tr>
 			<tr>
-				<th>A Poetic Perspective</th>
-				<td>Sat, 4 Feb 2012<br />11am - 2pm</td>
-				<td>Sat, 3 Mar 2012<br />11am - 2pm</td>
-				<td>Sat, 17 Mar 2012<br />11am - 2pm</td>
+				<th>Perspektywa poetycka</th>
+				<td>Sobota 4 lutego 2012<br>11:00 - 14:00</td>
+				<td>Sobota 3 marca 2012<br>11:00 - 14:00</td>
+				<td>Sobota 17 marca 2012<br>11:00 - 14:00</td>
 			</tr>
 			<tr class="even">
-				<th>Walt Whitman at War</th>
-				<td>Sat, 7 Apr 2012<br />11am - 1pm</td>
-				<td>Sat, 5 May 2012<br />11am - 1pm</td>
-				<td>Sat, 19 May 2012<br />11am - 1pm</td>
+				<th>Wojna w oczach Baczyńskiego</th>
+				<td>Sobota, 7 Kwietnia 2012<br>11:00 - 13:00</td>
+				<td>Sobota, 5 Maja 2012<br>11:00 - 13:00</td>
+				<td>Sobota, 19 Maja 2012<br>11:00 - 13:00</td>
 			</tr>
 			<tr>
-				<th>Found Poems &amp; Outsider Poetry</th>
-				<td>Sat, 9 Jun 2012<br />11am - 2pm</td>
-				<td>Sat, 7 Jul 2012<br />11am - 2pm</td>
-				<td>Sat, 21 Jul 2012<br />11am - 2pm</td>
+				<th>FPoematy odnalezione i poeci-outsiderzy</th>
+				<td>Sobota, 9 Czerwca 2012<br>11:00 - 14:00</td>
+				<td>Sobota, 7 Lipca 2012<br>11:00 - 14:00</td>
+				<td>Sobota, 21 Lipca 2012<br>11:00 - 14:00</td>
 			</tr>
 			<tr class="even">
-				<th>Natural Death: An Exploration</th>
-				<td>Sat, 4 Aug 2012<br />11am - 4pm</td>
-				<td>Sat, 8 Sep 2012<br />11am - 4pm</td>
-				<td>Sat, 15 Sep 2012<br />11am - 4pm</td>
+				<th>Naturalna śmierć: Granice poznania</th>
+				<td>Sobota, 4 Sierpnia 2012<br>11:00 - 16:00</td>
+				<td>Sobota, 8 Września 2012<br>11:00 - 16:00</td>
+				<td>Sobota, 15 Września 2012<br>11:00 - 16:00</td>
 			</tr>
 		</table>
-		<form action="http://www.example.com/form.php" method="get">
+		<form action="http://www.jakaswitryna.pl/form.php" method="get">
 			<fieldset>
-				<legend>Register your interest</legend>
-				<p><label class="title" for="name">Your name:</label>
-					 <input type="text" name="name" id="name"><br />
-					 <label class="title" for="email">Your email:</label>
-					 <input type="text" name="email" id="email"></p>
-				<p><label for="location" class="title">Your closest center:</label>
-					 <select name="location" id="location">
-						 <option value="ny">New York</option>
-						 <option value="il">Chicago</option>
-						 <option value="ca">San Francisco</option>
-					 </select></p>
-				<span class="title">Are you a member?</span>
-				<label><input type="radio" name="member" value="yes" /> Yes</label>
-				<label><input type="radio" name="member" value="no" /> No</label>
-			</fieldset>
- 	    <div class="submit"><input type="submit" value="Register" /></div>
-		</form>
+				<legend>Rejestracja uczestnictwa</legend>
+				<p>
+					<label class="title" for="name">Imię i nazwisko:</label>
+					<input type="text" name="name" id="name"><br>
+					<label class="title" for="email">Email:</label>
+					<input type="text" name="email" id="email">
+				</p>
+				<p>
+					<label for="location" class="title">Najbliższa placówka</label>
+					<select name="location" id="location">
+						<option value="kr">Kraków</option>
+						<option value="wr">Wrocław</option>
+						<option value="gd">Gdańsk</option>
+					</select>
+				</p>
+			   <span class="title">Czy jesteś członkiem stowarzyszenia?</span>
+			   <label><input type="radio" name="member" value="yes"> Tak</label>
+			   <label><input type="radio" name="member" value="no"> Nie</label>
+		   </fieldset>
+		<div class="submit">
+			<input type="submit" value="Rejestracja">
+		</div>
+	   </form>
 	</body>
 </html>
